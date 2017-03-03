@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.2//EN" "http://www.web3d.org/specifications/x3d-3.2.dtd">
+<X3D version='3.2' profile='Immersive'  xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.2.xsd'>
+ <Scene>
+  <Transform class="extWall">
+      <Shape >
+        <Appearance>
+            <TextureTransform scale='1 1' translation='.125 0'/>
+            <CommonSurfaceShader class="sheetMetal"
+              normalSpace='TANGENT'
+              alphaFactor="1"
+              diffuseFactor=".961 .467 .133"
+              specularFactor="0.05 0.05 0.05"
+              shininessFactor="0.05"
+              environmentFactor="0.3 0.3 0.3"
+              reflectionFactor="0.01"
+              ambientFactor=".588 .588 .588"
+              transmissionFactor="1 1 1"
+              relativeIndexOfRefraction="1"
+              fresnelBlend="0.1"
+            >
+              <!-- <ImageTexture containerField="ambientTexture" url=""/>
+              <ImageTexture containerField="emmissiveTexture" url=""/>
+              <ImageTexture containerField="shininessTexture" url=""/> -->
+              <!-- <ImageTexture containerField="diffuseTexture" url="../Materials/rust.png"/>
+              <ImageTexture containerField="specularTexture" url="../Materials/rust-spec.png"/> -->
+              <!-- <ImageTexture containerField="normalTexture" url="../../../Images/WaveNorm2.5.jpg"/> -->
+            </CommonSurfaceShader>
+            <ComposedCubeMapTexture repeatS="false" repeatT="false">
+              <ImageTexture containerField="back" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+              <ImageTexture containerField="bottom" url="../../../Images/Cement.jpg"></ImageTexture>
+              <ImageTexture containerField="front" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+              <ImageTexture containerField="left" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+              <ImageTexture containerField="right" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+              <ImageTexture containerField="top" url="../../../Images/skyTile.jpg"></ImageTexture>
+            </ComposedCubeMapTexture>
+        </Appearance>
+          <IndexedFaceSet coordIndex='25 4 3 -1 25 3 24 -1 24 3 2 -1 24 2 23 -1 23 2 1 -1 23 1 22 -1 0 5 1 -1 1 5 6 -1 6 10 1 -1 1 10 16 -1 1 16 22 -1 22 16 20 -1 22 20 21 -1 21 20 19 -1 13 15 12 -1 12 15 16 -1 12 16 9 -1 9 16 10 -1 13 14 15 -1 15 14 17 -1 15 17 19 -1 19 17 18 -1 19 18 21 -1 0 7 5 -1 5 7 8 -1 5 8 9 -1 9 8 11 -1 9 11 12 -1 ' normalIndex='4 4 3 -1 4 3 3 -1 3 3 2 -1 3 2 2 -1 2 2 1 -1 2 1 1 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+              <Coordinate point=' -42 0 0 -42 27.5 9.25 -42 50.37 6.31 -42 71.45 -3.03 -42 89 -18 -38.87 2.84 .95 -38.87 23.69 7.97 -30.65 0 0 -28.44 0 0 -14.87 2.84 .95 -14.87 23.69 7.97 -12.87 0 0 -10.87 0 0 10.87 0 0 12.87 0 0 14.87 2.84 .95 14.87 23.69 7.97 28.44 0 -0 30.65 0 0 38.87 2.84 .95 38.87 23.69 7.97 42 0 0 42 27.5 9.25 42 50.37 6.31 42 71.45 -3.03 42 89 -18 '></Coordinate>
+              <Normal vector=' 0 -.31 .94 0 -.01 .99 0 .26 .96 0 .53 .84 0 .75 .65 '></Normal>
+          </IndexedFaceSet>
+      </Shape>
+  </Transform>
+  <Transform translation="0 .088 .088">
+      <Shape >
+          <Appearance >
+            <ImageTexture url="../../Images/GraphicsFrontStandardReversed.gif"></ImageTexture>
+            <TextureTransform rotation="1.5708"></TextureTransform>
+          </Appearance>
+          <IndexedFaceSet coordIndex='25 4 3 -1 25 3 24 -1 24 3 2 -1 24 2 23 -1 23 2 1 -1 23 1 22 -1 0 5 1 -1 1 5 6 -1 6 10 1 -1 1 10 16 -1 1 16 22 -1 22 16 20 -1 22 20 21 -1 21 20 19 -1 13 15 12 -1 12 15 16 -1 12 16 9 -1 9 16 10 -1 13 14 15 -1 15 14 17 -1 15 17 19 -1 19 17 18 -1 19 18 21 -1 0 7 5 -1 5 7 8 -1 5 8 9 -1 9 8 11 -1 9 11 12 -1 ' normalIndex='4 4 3 -1 4 3 3 -1 3 3 2 -1 3 2 2 -1 2 2 1 -1 2 1 1 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+              <Coordinate point=' -42 0 0 -42 27.5 9.25 -42 50.37 6.31 -42 71.45 -3.03 -42 89 -18 -38.87 2.84 .95 -38.87 23.69 7.97 -30.65 0 0 -28.44 0 0 -14.87 2.84 .95 -14.87 23.69 7.97 -12.87 0 0 -10.87 0 0 10.87 0 0 12.87 0 0 14.87 2.84 .95 14.87 23.69 7.97 28.44 0 -0 30.65 0 0 38.87 2.84 .95 38.87 23.69 7.97 42 0 0 42 27.5 9.25 42 50.37 6.31 42 71.45 -3.03 42 89 -18 '></Coordinate>
+              <Normal vector=' 0 -.31 .94 0 -.01 .99 0 .26 .96 0 .53 .84 0 .75 .65 '></Normal>
+          </IndexedFaceSet>
+      </Shape>
+  </Transform>
+  <Transform translation="0 .088 .088" class="graphics">
+      <Shape >
+          <Appearance >
+            <ImageTexture url="../../Images/GraphicsFront.gif"></ImageTexture>
+            <TextureTransform rotation="1.5708"></TextureTransform>
+          </Appearance>
+          <IndexedFaceSet coordIndex='25 4 3 -1 25 3 24 -1 24 3 2 -1 24 2 23 -1 23 2 1 -1 23 1 22 -1 0 5 1 -1 1 5 6 -1 6 10 1 -1 1 10 16 -1 1 16 22 -1 22 16 20 -1 22 20 21 -1 21 20 19 -1 13 15 12 -1 12 15 16 -1 12 16 9 -1 9 16 10 -1 13 14 15 -1 15 14 17 -1 15 17 19 -1 19 17 18 -1 19 18 21 -1 0 7 5 -1 5 7 8 -1 5 8 9 -1 9 8 11 -1 9 11 12 -1 ' normalIndex='4 4 3 -1 4 3 3 -1 3 3 2 -1 3 2 2 -1 2 2 1 -1 2 1 1 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+              <Coordinate point=' -42 0 0 -42 27.5 9.25 -42 50.37 6.31 -42 71.45 -3.03 -42 89 -18 -38.87 2.84 .95 -38.87 23.69 7.97 -30.65 0 0 -28.44 0 0 -14.87 2.84 .95 -14.87 23.69 7.97 -12.87 0 0 -10.87 0 0 10.87 0 0 12.87 0 0 14.87 2.84 .95 14.87 23.69 7.97 28.44 0 -0 30.65 0 0 38.87 2.84 .95 38.87 23.69 7.97 42 0 0 42 27.5 9.25 42 50.37 6.31 42 71.45 -3.03 42 89 -18 '></Coordinate>
+              <Normal vector=' 0 -.31 .94 0 -.01 .99 0 .26 .96 0 .53 .84 0 .75 .65 '></Normal>
+          </IndexedFaceSet>
+      </Shape>
+  </Transform>
+  </Scene>
+</X3D>

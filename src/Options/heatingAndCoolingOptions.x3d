@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+        <Inline id='ventBathroom' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBathroom" url='../x3d_Library/VentRoof.x3d' render='true'></Inline>
+        <Inline id='ventBedroom' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBedroom" url='../x3d_Library/VentRoof.x3d' render='true'></Inline>
+        <Inline id='ventGarage' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventGarage" url='../x3d_Library/VentRoof.x3d' render='true'></Inline>
+        <Inline id='ventKitchen' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventKitchen" url='../x3d_Library/VentRoof.x3d' render='true'></Inline>
+
+        <Inline id='ventBathroomMaxxAir' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBathroomMaxxAir" url='../x3d_Library/VentMaxxAir.x3d' render='false'></Inline>
+        <Inline id='ventBedroomMaxxAir' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBedroomMaxxAir" url='../x3d_Library/VentMaxxAir.x3d' render='false'></Inline>
+        <Inline id='ventKitchenMaxxAir' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventKitchenMaxxAir" url='../x3d_Library/VentMaxxAir.x3d' render='false'></Inline>
+
+        <Inline id='ventBathroomMaxxAirCover' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBathroomMaxxAirCover" url='../x3d_Library/VentCoverMaxxAir.x3d' render='false'></Inline>
+        <Inline id='ventBedroomMaxxAirCover' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventBedroomMaxxAirCover" url='../x3d_Library/VentCoverMaxxAir.x3d' render='false'></Inline>
+        <Inline id='ventGarageMaxxAirCover' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventGarageMaxxAirCover" url='../x3d_Library/VentCoverMaxxAir.x3d' render='false'></Inline>
+        <Inline id='ventKitchenMaxxAirCover' class="exterior" nameSpaceName="heatingAndCoolingOptions__ventKitchenMaxxAirCover" url='../x3d_Library/VentCoverMaxxAir.x3d' render='false'></Inline>
+
+        <Inline id='airConditioner15000' class="exterior" nameSpaceName="heatingAndCoolingOptions__airConditioner15000" url='../x3d_Library/AC15000.x3d' render='false'></Inline>
+        <Inline id='airConditioner13500' class="exterior" nameSpaceName="heatingAndCoolingOptions__airConditioner13500" url='../x3d_Library/AC15000.x3d' render='false'></Inline>
+        <Inline id='airConditionerDual' class="exterior" nameSpaceName="heatingAndCoolingOptions__airConditionerDual" url='../x3d_Library/AC15000.x3d' render='false'></Inline>
+    </Scene>
+</X3D>

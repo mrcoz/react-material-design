@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+
+        <Transform translation="0 0 0">
+
+            <Switch whichChoice="0" class="twoToneSwitch">
+
+                <!-- Two Tone -->
+                <Group>
+
+                    <!-- Two Tone Front -->
+                    <Transform>
+                        <Shape>
+                          <Appearance>
+                              <TextureTransform scale='1 1' translation='.125 0'/>
+                              <CommonSurfaceShader class="sheetMetal"
+                                normalSpace='TANGENT'
+                                alphaFactor="1"
+                                diffuseFactor=".961 .467 .133"
+                                specularFactor="0.05 0.05 0.05"
+                                shininessFactor="0.05"
+                                environmentFactor="0.3 0.3 0.3"
+                                reflectionFactor="0.01"
+                                ambientFactor=".588 .588 .588"
+                                transmissionFactor="1 1 1"
+                                relativeIndexOfRefraction="1"
+                                fresnelBlend="0.1"
+                              >
+                                <!-- <ImageTexture containerField="ambientTexture" url=""/>
+                                <ImageTexture containerField="emmissiveTexture" url=""/>
+                                <ImageTexture containerField="shininessTexture" url=""/> -->
+                                <!-- <ImageTexture containerField="diffuseTexture" url="../Materials/rust.png"/>
+                                <ImageTexture containerField="specularTexture" url="../Materials/rust-spec.png"/> -->
+                                <!-- <ImageTexture containerField="normalTexture" url="../../../Images/WaveNorm2.5.jpg"/> -->
+                              </CommonSurfaceShader>
+                              <ComposedCubeMapTexture repeatS="false" repeatT="false">
+                                <ImageTexture containerField="back" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="bottom" url="../../../Images/Cement.jpg"></ImageTexture>
+                                <ImageTexture containerField="front" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="left" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="right" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="top" url="../../../Images/skyTile.jpg"></ImageTexture>
+                              </ComposedCubeMapTexture>
+                          </Appearance>
+                            <IndexedFaceSet coordIndex='11 30 8 -1 8 30 13 -1 38 40 30 -1 45 43 50 -1 50 43 41 -1 35 33 50 -1 50 33 27 -1 50 27 6 -1 6 27 25 -1 6 25 23 -1 23 21 6 -1 6 21 19 -1 6 19 5 -1 5 19 17 -1 16 18 7 -1 7 18 20 -1 7 20 10 -1 10 20 22 -1 10 22 24 -1 50 51 30 -1 30 51 49 -1 40 42 30 -1 30 42 44 -1 30 44 50 -1 50 44 46 -1 50 46 45 -1 14 9 13 -1 13 9 3 -1 13 3 8 -1 8 3 1 -1 8 1 7 -1 7 1 0 -1 7 0 2 -1 31 29 14 -1 14 29 12 -1 14 12 9 -1 49 48 30 -1 30 48 47 -1 30 47 31 -1 31 47 32 -1 31 32 29 -1 41 39 50 -1 50 39 37 -1 50 37 35 -1 16 7 15 -1 15 7 2 -1 15 2 17 -1 17 2 4 -1 17 4 5 -1 24 26 10 -1 10 26 28 -1 10 28 11 -1 11 28 34 -1 11 34 30 -1 30 34 36 -1 30 36 38 -1 '  normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                                <Coordinate point=' 50 -5 -127.52 50 -5 0 50 -1.23 -129.11 50 0 0 50 2.07 -131.5 50 4.75 -134.58 50 6.68 -138.19 50 17.47 -83.37 50 17.47 -61.62 50 27.5 9.25 50 31.46 -83.37 50 31.46 -61.62 50 34.93 9.02 50 35.75 -16.75 50 35.75 -4 50 41 -120.25 50 41 -100.25 50 41.1 -121.02 50 41.1 -99.47 50 41.4 -121.75 50 41.4 -98.75 50 41.87 -122.37 50 41.87 -98.12 50 42.5 -122.84 50 42.5 -97.65 50 43.22 -123.14 50 43.22 -97.35 50 44 -123.25 50 44 -97.25 50 45.72 7.46 50 48.5 -16.75 50 48.5 -4 50 56.19 4.44 50 58 -123.25 50 58 -97.25 50 58.77 -123.14 50 58.77 -97.35 50 59.5 -122.84 50 59.5 -97.65 50 60.12 -122.37 50 60.12 -98.12 50 60.59 -121.75 50 60.59 -98.75 50 60.89 -121.02 50 60.89 -99.47 50 61 -120.25 50 61 -100.25 50 66.16 .02 50 75.43 -5.7 50 83.84 -12.64 50 89 -177.93 50 89 -18 '></Coordinate>
+                                <Normal vector=' 1 0 0 '></Normal>
+                            </IndexedFaceSet>
+                        </Shape>
+                    </Transform>
+
+                    <!-- Two Tone Rear -->
+                    <Transform >
+                        <Shape>
+                          <Appearance>
+                              <TextureTransform scale='1 1' translation='.125 0'/>
+                              <CommonSurfaceShader class="twoToneMetal"
+                                normalSpace='TANGENT'
+                                alphaFactor="1"
+                                diffuseFactor="0 0 0"
+                                specularFactor="0.05 0.05 0.05"
+                                shininessFactor="0.05"
+                                environmentFactor="0.3 0.3 0.3"
+                                reflectionFactor="0.01"
+                                ambientFactor=".588 .588 .588"
+                                transmissionFactor="1 1 1"
+                                relativeIndexOfRefraction="1"
+                                fresnelBlend="0.1"
+                              >
+                                <!-- <ImageTexture containerField="ambientTexture" url=""/>
+                                <ImageTexture containerField="emmissiveTexture" url=""/>
+                                <ImageTexture containerField="shininessTexture" url=""/> -->
+                                <!-- <ImageTexture containerField="diffuseTexture" url="../Materials/rust.png"/>
+                                <ImageTexture containerField="specularTexture" url="../Materials/rust-spec.png"/> -->
+                                <!-- <ImageTexture containerField="normalTexture" url="../../../Images/WaveNorm2.5.jpg"/> -->
+                              </CommonSurfaceShader>
+                              <ComposedCubeMapTexture repeatS="false" repeatT="false">
+                                <ImageTexture containerField="back" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="bottom" url="../../../Images/Cement.jpg"></ImageTexture>
+                                <ImageTexture containerField="front" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="left" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="right" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                                <ImageTexture containerField="top" url="../../../Images/skyTile.jpg"></ImageTexture>
+                              </ComposedCubeMapTexture>
+                          </Appearance>
+                            <IndexedFaceSet coordIndex='0 36 22 -1 22 20 0 -1 0 20 5 -1 0 5 1 -1 14 6 9 -1 25 27 37 -1 37 27 29 -1 37 29 31 -1 34 36 35 -1 35 36 37 -1 35 37 33 -1 33 37 31 -1 34 32 36 -1 36 32 30 -1 36 30 28 -1 19 15 21 -1 21 15 11 -1 21 11 20 -1 20 11 8 -1 20 8 5 -1 3 2 4 -1 4 2 6 -1 28 26 36 -1 36 26 24 -1 36 24 22 -1 14 10 6 -1 6 10 7 -1 6 7 4 -1 13 17 37 -1 37 17 18 -1 12 37 9 -1 9 37 18 -1 9 18 14 -1 25 37 23 -1 23 37 12 -1 23 12 21 -1 21 12 16 -1 21 16 19 -1 '  normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                                <Coordinate point=' 50 -5 -290 50 -5 -206.07 50 -5 -171.52 50 -5 -162.07 50 -1.07 -160.39 50 -.77 -204.21 50 -.77 -173.38 50 2.33 -157.84 50 2.84 -201.34 50 2.84 -176.25 50 5.05 -154.56 50 5.6 -197.65 50 5.6 -179.94 50 6.68 -138.19 50 6.93 -150.73 50 7.34 -193.37 50 7.34 -184.22 50 7.76 -142.31 50 7.84 -146.57 50 7.93 -188.79 50 16 -275.25 50 16 -194.75 50 72 -275.25 50 72 -194.75 50 73.16 -275.09 50 73.16 -194.9 50 74.25 -274.64 50 74.25 -195.35 50 75.18 -273.93 50 75.18 -196.06 50 75.89 -273 50 75.89 -197 50 76.34 -271.91 50 76.34 -198.08 50 76.5 -270.75 50 76.5 -199.25 50 89 -290 50 89 -177.93 '></Coordinate>
+                                <Normal vector=' 1 0 0 '></Normal>
+                            </IndexedFaceSet>
+                        </Shape>
+                    </Transform>
+
+                </Group>
+
+                <!-- Single Tone -->
+                <Transform>
+                    <Shape>
+                      <Appearance>
+                          <TextureTransform scale='1 1' translation='.125 0'/>
+                          <CommonSurfaceShader class="sheetMetal"
+                            normalSpace='TANGENT'
+                            alphaFactor="1"
+                            diffuseFactor=".961 .467 .133"
+                            specularFactor="0.05 0.05 0.05"
+                            shininessFactor="0.05"
+                            environmentFactor="0.3 0.3 0.3"
+                            reflectionFactor="0.01"
+                            ambientFactor=".588 .588 .588"
+                            transmissionFactor="1 1 1"
+                            relativeIndexOfRefraction="1"
+                            fresnelBlend="0.1"
+                          >
+                            <!-- <ImageTexture containerField="ambientTexture" url=""/>
+                            <ImageTexture containerField="emmissiveTexture" url=""/>
+                            <ImageTexture containerField="shininessTexture" url=""/> -->
+                            <!-- <ImageTexture containerField="diffuseTexture" url="../Materials/rust.png"/>
+                            <ImageTexture containerField="specularTexture" url="../Materials/rust-spec.png"/> -->
+                            <!-- <ImageTexture containerField="normalTexture" url="../../../Images/WaveNorm2.5.jpg"/> -->
+                          </CommonSurfaceShader>
+                          <ComposedCubeMapTexture repeatS="false" repeatT="false">
+                            <ImageTexture containerField="back" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                            <ImageTexture containerField="bottom" url="../../../Images/Cement.jpg"></ImageTexture>
+                            <ImageTexture containerField="front" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                            <ImageTexture containerField="left" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                            <ImageTexture containerField="right" url="../../../Images/skyTile-Middle.jpg"></ImageTexture>
+                            <ImageTexture containerField="top" url="../../../Images/skyTile.jpg"></ImageTexture>
+                          </ComposedCubeMapTexture>
+                      </Appearance>
+                        <IndexedFaceSet coordIndex='77 79 54 -1 83 67 0 -1 0 67 25 -1 31 49 28 -1 28 49 32 -1 57 59 49 -1 49 59 61 -1 79 62 60 -1 25 26 15 -1 63 65 79 -1 79 65 64 -1 79 64 62 -1 1 0 6 -1 6 0 25 -1 6 25 11 -1 11 25 15 -1 20 23 26 -1 26 23 19 -1 26 19 15 -1 36 38 27 -1 27 38 40 -1 27 40 30 -1 30 40 42 -1 30 42 44 -1 33 29 32 -1 32 29 10 -1 32 10 28 -1 28 10 5 -1 28 5 27 -1 27 5 4 -1 27 4 9 -1 50 51 33 -1 33 51 34 -1 33 34 29 -1 60 58 79 -1 79 58 56 -1 79 56 54 -1 12 43 7 -1 7 43 41 -1 7 41 2 -1 52 47 26 -1 26 47 45 -1 26 45 20 -1 20 45 43 -1 20 43 16 -1 16 43 12 -1 78 76 83 -1 83 76 74 -1 44 46 30 -1 30 46 48 -1 30 48 31 -1 31 48 53 -1 31 53 49 -1 49 53 55 -1 49 55 57 -1 37 18 39 -1 39 18 22 -1 39 22 41 -1 41 22 24 -1 41 24 21 -1 21 17 41 -1 41 17 13 -1 41 13 2 -1 2 13 8 -1 2 8 3 -1 61 63 49 -1 49 63 79 -1 49 79 84 -1 84 79 81 -1 84 81 83 -1 83 81 80 -1 83 80 78 -1 74 72 83 -1 83 72 70 -1 83 70 67 -1 52 26 54 -1 54 26 68 -1 54 68 71 -1 71 73 54 -1 54 73 75 -1 54 75 77 -1 36 27 35 -1 35 27 9 -1 35 9 37 -1 37 9 14 -1 37 14 18 -1 84 82 49 -1 49 82 69 -1 49 69 50 -1 50 69 66 -1 50 66 51 -1 '  normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                            <Coordinate point=' 50 -5 -290 50 -5 -206.07 50 -5 -171.52 50 -5 -162.07 50 -5 -127.52 50 -5 0 50 -.77 -204.21 50 -.77 -173.38 50 -.77 -160.21 50 -.77 -129.38 50 0 0 50 2.84 -201.34 50 2.84 -176.25 50 2.84 -157.34 50 2.84 -132.25 50 5.6 -197.65 50 5.6 -179.94 50 5.6 -153.65 50 5.6 -135.94 50 7.34 -193.37 50 7.34 -184.22 50 7.34 -149.37 50 7.34 -140.22 50 7.93 -188.79 50 7.93 -144.8 50 16 -275.25 50 16 -194.75 50 17.47 -83.37 50 17.47 -61.62 50 27.5 9.25 50 31.46 -83.37 50 31.46 -61.62 50 35.75 -16.75 50 35.75 -4 50 36.74 8.87 50 41 -120.25 50 41 -100.25 50 41.1 -121.02 50 41.1 -99.47 50 41.4 -121.75 50 41.4 -98.75 50 41.87 -122.37 50 41.87 -98.12 50 42.5 -122.84 50 42.5 -97.65 50 43.22 -123.14 50 43.22 -97.35 50 44 -123.25 50 44 -97.25 50 48.5 -16.75 50 48.5 -4 50 49.25 6.61 50 58 -123.25 50 58 -97.25 50 58.77 -123.14 50 58.77 -97.35 50 59.5 -122.84 50 59.5 -97.65 50 60.12 -122.37 50 60.12 -98.12 50 60.59 -121.75 50 60.59 -98.75 50 60.89 -121.02 50 60.89 -99.47 50 61 -120.25 50 61 -100.25 50 61.25 2.4 50 72 -275.25 50 72 -194.75 50 72.43 -3.65 50 73.16 -275.09 50 73.16 -194.9 50 74.25 -274.64 50 74.25 -195.35 50 75.18 -273.93 50 75.18 -196.06 50 75.89 -273 50 75.89 -197 50 76.34 -271.91 50 76.34 -198.08 50 76.5 -270.75 50 76.5 -199.25 50 82.5 -11.4 50 89 -290 50 89 -18 '></Coordinate>
+                            <Normal vector=' 1 0 0 '></Normal>
+                        </IndexedFaceSet>
+                    </Shape>
+                </Transform>
+
+            </Switch>
+
+            <!-- Graphics -->
+            <Transform  class="graphics" translation=".125 0 0" >
+                <Shape>
+                    <Appearance>
+                        <ImageTexture url="../../../Images/GraphicsRS.gif"/>
+                    </Appearance>
+                    <IndexedFaceSet coordIndex='77 79 54 -1 83 67 0 -1 0 67 25 -1 31 49 28 -1 28 49 32 -1 57 59 49 -1 49 59 61 -1 79 62 60 -1 25 26 15 -1 63 65 79 -1 79 65 64 -1 79 64 62 -1 1 0 6 -1 6 0 25 -1 6 25 11 -1 11 25 15 -1 20 23 26 -1 26 23 19 -1 26 19 15 -1 36 38 27 -1 27 38 40 -1 27 40 30 -1 30 40 42 -1 30 42 44 -1 33 29 32 -1 32 29 10 -1 32 10 28 -1 28 10 5 -1 28 5 27 -1 27 5 4 -1 27 4 9 -1 50 51 33 -1 33 51 34 -1 33 34 29 -1 60 58 79 -1 79 58 56 -1 79 56 54 -1 12 43 7 -1 7 43 41 -1 7 41 2 -1 52 47 26 -1 26 47 45 -1 26 45 20 -1 20 45 43 -1 20 43 16 -1 16 43 12 -1 78 76 83 -1 83 76 74 -1 44 46 30 -1 30 46 48 -1 30 48 31 -1 31 48 53 -1 31 53 49 -1 49 53 55 -1 49 55 57 -1 37 18 39 -1 39 18 22 -1 39 22 41 -1 41 22 24 -1 41 24 21 -1 21 17 41 -1 41 17 13 -1 41 13 2 -1 2 13 8 -1 2 8 3 -1 61 63 49 -1 49 63 79 -1 49 79 84 -1 84 79 81 -1 84 81 83 -1 83 81 80 -1 83 80 78 -1 74 72 83 -1 83 72 70 -1 83 70 67 -1 52 26 54 -1 54 26 68 -1 54 68 71 -1 71 73 54 -1 54 73 75 -1 54 75 77 -1 36 27 35 -1 35 27 9 -1 35 9 37 -1 37 9 14 -1 37 14 18 -1 84 82 49 -1 49 82 69 -1 49 69 50 -1 50 69 66 -1 50 66 51 -1 '  normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                        <Coordinate point=' 50 -5 -290 50 -5 -206.07 50 -5 -171.52 50 -5 -162.07 50 -5 -127.52 50 -5 0 50 -.77 -204.21 50 -.77 -173.38 50 -.77 -160.21 50 -.77 -129.38 50 0 0 50 2.84 -201.34 50 2.84 -176.25 50 2.84 -157.34 50 2.84 -132.25 50 5.6 -197.65 50 5.6 -179.94 50 5.6 -153.65 50 5.6 -135.94 50 7.34 -193.37 50 7.34 -184.22 50 7.34 -149.37 50 7.34 -140.22 50 7.93 -188.79 50 7.93 -144.8 50 16 -275.25 50 16 -194.75 50 17.47 -83.37 50 17.47 -61.62 50 27.5 9.25 50 31.46 -83.37 50 31.46 -61.62 50 35.75 -16.75 50 35.75 -4 50 36.74 8.87 50 41 -120.25 50 41 -100.25 50 41.1 -121.02 50 41.1 -99.47 50 41.4 -121.75 50 41.4 -98.75 50 41.87 -122.37 50 41.87 -98.12 50 42.5 -122.84 50 42.5 -97.65 50 43.22 -123.14 50 43.22 -97.35 50 44 -123.25 50 44 -97.25 50 48.5 -16.75 50 48.5 -4 50 49.25 6.61 50 58 -123.25 50 58 -97.25 50 58.77 -123.14 50 58.77 -97.35 50 59.5 -122.84 50 59.5 -97.65 50 60.12 -122.37 50 60.12 -98.12 50 60.59 -121.75 50 60.59 -98.75 50 60.89 -121.02 50 60.89 -99.47 50 61 -120.25 50 61 -100.25 50 61.25 2.4 50 72 -275.25 50 72 -194.75 50 72.43 -3.65 50 73.16 -275.09 50 73.16 -194.9 50 74.25 -274.64 50 74.25 -195.35 50 75.18 -273.93 50 75.18 -196.06 50 75.89 -273 50 75.89 -197 50 76.34 -271.91 50 76.34 -198.08 50 76.5 -270.75 50 76.5 -199.25 50 82.5 -11.4 50 89 -290 50 89 -18 '></Coordinate>
+                        <Normal vector=' 1 0 0 '></Normal>
+                    </IndexedFaceSet>
+                </Shape>
+            </Transform>
+
+        </Transform>
+
+    </Scene>
+</X3D>

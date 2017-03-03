@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+        <Transform translation="0 0 0">
+          <!-- TOP -->
+          <Transform translation="0 -22 -200" rotation="1 0 0 -1.5708">
+              <Shape>
+                  <Appearance>
+
+                      <TextureTransform scale="1.5 3" />
+                      <CommonSurfaceShader
+                        diffuseFactor="1 1 1"
+                        specularFactor=".49 .471 .455"
+                        shininessFactor=".25"
+                        ambientFactor=".5"
+                        normalSpace="OBJECT"
+                        textureTransformEnabled="1"
+
+                      >
+                          <ImageTexture containerField="normalTexture" url="../../Images/Concrete_Normal_Final2_greenInv.jpg"/>
+                          <ImageTexture containerField="diffuseTexture" url="../../Images/GreySquareSeamless.jpg"/>
+                      </CommonSurfaceShader>
+                  </Appearance>
+                  <Plane ccw='true' center='0,0,0' lit='true' metadata='X3DMetadataObject' primType="['TRIANGLES']" size='400,800' solid='true' subdivision='1,1' useGeoCache='true' ></Plane>
+              </Shape>
+          </Transform>
+
+          <!-- X Axis -->
+          <Transform translation="200 -25 -200" rotation="0 0 1 -1.5708">
+              <Transform rotation="1 0 0 -1.5708">
+                  <Shape>
+                      <Appearance>
+
+                          <TextureTransform scale=".0225 3" />
+                          <CommonSurfaceShader
+                            diffuseFactor="1 1 1"
+                            specularFactor=".49 .471 .455"
+                            shininessFactor=".25"
+                            ambientFactor=".5"
+                            normalSpace="OBJECT"
+                            textureTransformEnabled="1"
+
+                          >
+                              <ImageTexture containerField="normalTexture" url="../../Images/Concrete_Normal_Final2_greenInv.jpg"/>
+                              <ImageTexture containerField="diffuseTexture" url="../../Images/GreySquareSeamless.jpg"/>
+                          </CommonSurfaceShader>
+                      </Appearance>
+                      <Plane ccw='true' center='0,0,0' lit='true' metadata='X3DMetadataObject' primType="['TRIANGLES']" size='6,800' solid='true' subdivision='1,1' useGeoCache='true' ></Plane>
+                  </Shape>
+              </Transform>
+          </Transform>
+          <Transform translation="-200 -25 -200" rotation="0 0 1 -1.5708">
+              <Transform rotation="1 0 0 1.5708">
+                  <Shape>
+                      <Appearance>
+
+                          <TextureTransform scale=".0225 3" />
+                          <CommonSurfaceShader
+                            diffuseFactor="1 1 1"
+                            specularFactor=".49 .471 .455"
+                            shininessFactor=".25"
+                            ambientFactor=".5"
+                            normalSpace="OBJECT"
+                            textureTransformEnabled="1"
+
+                          >
+                              <ImageTexture containerField="normalTexture" url="../../Images/Concrete_Normal_Final2_greenInv.jpg"/>
+                              <ImageTexture containerField="diffuseTexture" url="../../Images/GreySquareSeamless.jpg"/>
+                          </CommonSurfaceShader>
+                      </Appearance>
+                      <Plane ccw='true' center='0,0,0' lit='true' metadata='X3DMetadataObject' primType="['TRIANGLES']" size='6,800' solid='true' subdivision='1,1' useGeoCache='true' ></Plane>
+                  </Shape>
+              </Transform>
+          </Transform>
+
+          <!-- Z Axis -->
+          <Transform translation="0 -25 200">
+              <Shape>
+                  <Appearance>
+
+                      <TextureTransform scale="1.5 .0225" />
+                      <CommonSurfaceShader
+                        diffuseFactor="1 1 1"
+                        specularFactor=".49 .471 .455"
+                        shininessFactor=".25"
+                        ambientFactor=".5"
+                        normalSpace="OBJECT"
+                        textureTransformEnabled="1"
+
+                      >
+                          <ImageTexture containerField="normalTexture" url="../../Images/Concrete_Normal_Final2_greenInv.jpg"/>
+                          <ImageTexture containerField="diffuseTexture" url="../../Images/GreySquareSeamless.jpg"/>
+                      </CommonSurfaceShader>
+                  </Appearance>
+                  <Plane ccw='true' center='0,0,0' lit='true' metadata='X3DMetadataObject' primType="['TRIANGLES']" size='400,6' solid='true' subdivision='1,1' useGeoCache='true' ></Plane>
+              </Shape>
+          </Transform>
+          <Transform translation="0 -25 -600" rotation="1 0 0 -3.1416">
+              <Shape>
+                  <Appearance>
+
+                      <TextureTransform scale="1.5 .0225" />
+                      <CommonSurfaceShader
+                        diffuseFactor="1 1 1"
+                        specularFactor=".49 .471 .455"
+                        shininessFactor=".25"
+                        ambientFactor=".5"
+                        normalSpace="OBJECT"
+                        textureTransformEnabled="1"
+
+                      >
+                          <ImageTexture containerField="normalTexture" url="../../Images/Concrete_Normal_Final2_greenInv.jpg"/>
+                          <ImageTexture containerField="diffuseTexture" url="../../Images/GreySquareSeamless.jpg"/>
+                      </CommonSurfaceShader>
+                  </Appearance>
+                  <Plane ccw='true' center='0,0,0' lit='true' metadata='X3DMetadataObject' primType="['TRIANGLES']" size='400,6' solid='true' subdivision='1,1' useGeoCache='true' ></Plane>
+              </Shape>
+          </Transform>
+        </Transform>
+    </Scene>
+</X3D>

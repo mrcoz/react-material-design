@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+  <Scene DEF='scene'>
+    <Transform>
+
+            <Transform translation="1.13 0 0">
+                <Shape>
+                    <Appearance >
+                        <ImageTexture url="../../Images/WallGreyInt.jpg"></ImageTexture>
+                        <TextureTransform scale=".515 .37" center="-.03958 -.205"></TextureTransform>
+                        <Material transparency="0"></Material>
+                    </Appearance>
+                    <IndexedFaceSet coordIndex='1 0 14 -1 14 0 2 -1 14 2 12 -1 14 16 30 -1 30 16 18 -1 14 15 1 -1 1 15 13 -1 1 13 11 -1 11 9 1 -1 1 9 7 -1 1 7 3 -1 3 7 5 -1 2 4 6 -1 28 30 26 -1 26 30 24 -1 14 30 15 -1 15 30 31 -1 15 31 17 -1 17 31 29 -1 17 29 27 -1 6 8 2 -1 2 8 10 -1 2 10 12 -1 18 20 30 -1 30 20 22 -1 30 22 24 -1 27 25 17 -1 17 25 23 -1 17 23 19 -1 19 23 21 -1 ' normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                        <Coordinate point=' 0 -24 -33 0 -24 -3 0 -23.92 -33.66 0 -23.92 -2.33 0 -23.7 -34.3 0 -23.7 -1.69 0 -23.34 -34.87 0 -23.34 -1.12 0 -22.87 -35.34 0 -22.87 -.65 0 -22.3 -35.7 0 -22.3 -.29 0 -21.66 -35.92 0 -21.66 -.07 0 -21 -36 0 -21 0 0 -3 -36 0 -3 0 0 -2.33 -35.92 0 -2.33 -.07 0 -1.69 -35.7 0 -1.69 -.29 0 -1.12 -35.34 0 -1.12 -.65 0 -.65 -34.87 0 -.65 -1.12 0 -.29 -34.3 0 -.29 -1.69 0 -.07 -33.66 0 -.07 -2.33 0 0 -33 0 0 -3 '></Coordinate>
+                        <Normal vector=' 1 0 0 '></Normal>
+                    </IndexedFaceSet>
+                </Shape>
+            </Transform>
+
+    </Transform>
+  </Scene>
+</X3D>

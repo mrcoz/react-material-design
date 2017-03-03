@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+        <Group id="night">
+
+            <!-- Surrounding Lights -->
+            <Inline id="groundLights" nameSpaceName="dayNightView__groundLights" fourInchLift="true" url="../x3d_Library/GroundLights.x3d"></Inline>
+
+            <spotLight location='100 -20.95 75' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 -1" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 75' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 -1" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 0' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 0' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 -75' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 -75' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 -150' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 -150' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 -225' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 -225' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 -300' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 -300' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 0" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <spotLight location='100 -20.95 -375' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="-1 1 1" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+            <spotLight location='-100 -20.95 -375' global="true" beamWidth="0.393" cutOffAngle="0.785" direction="1 1 1" on="false" radius="200" intensity="1" attenuation="1 .05 0 " ></spotLight>
+
+            <!-- Clearance Lights -->
+        </Group>
+    </Scene>
+</X3D>

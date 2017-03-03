@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+    <Inline id='bedDoorCS' nameSpaceName="sleepingOptions__bedDoorCS" url='../x3d_Library/BedDoor.x3d' render='false'></Inline>
+    <Inline id='bedDoorRS' nameSpaceName="sleepingOptions__bedDoorRS" url='../x3d_Library/BedDoor.x3d' render='false'></Inline>
+    <Inline id='bedDoorCSExteriorPlug' class="exterior" nameSpaceName="sleepingOptions__bedDoorCSExteriorPlug" url='../x3d_Library/BedDoorCSExteriorPlug.x3d' render='true'></Inline>
+    <Inline id='bedDoorRSExteriorPlug' class="exterior" nameSpaceName="sleepingOptions__bedDoorRSExteriorPlug" url='../x3d_Library/BedDoorRSExteriorPlug.x3d' render='true'></Inline>
+    <Inline id='bedDoorCSExteriorPlugGraphics' class="exterior" nameSpaceName="sleepingOptions__bedDoorCSExteriorPlugGraphics" url='../x3d_Library/BedDoorCSExteriorPlugGraphics.x3d' render='true'></Inline>
+    <Inline id='bedDoorRSExteriorPlugGraphics' class="exterior" nameSpaceName="sleepingOptions__bedDoorRSExteriorPlugGraphics" url='../x3d_Library/BedDoorRSExteriorPlugGraphics.x3d' render='true'></Inline>
+    <Inline id='bedDoorCSInteriorPlug' nameSpaceName="sleepingOptions__bedDoorCSInteriorPlug" url='../x3d_Library/BedDoorCSInteriorPlug.x3d' render='true'></Inline>
+    <Inline id='bedDoorRSInteriorPlug' nameSpaceName="sleepingOptions__bedDoorRSInteriorPlug" url='../x3d_Library/BedDoorRSInteriorPlug.x3d' render='true'></Inline>
+
+    <Inline id='dinetteCSFront' nameSpaceName="sleepingOptions__dinetteCSFront" url='../x3d_Library/Dinette.x3d' render='false'></Inline>
+    <Inline id='dinetteCSMiddle' nameSpaceName="sleepingOptions__dinetteCSMiddle" url='../x3d_Library/Dinette.x3d' render='false'></Inline>
+		<Inline id='dinetteRSMiddle' nameSpaceName="sleepingOptions__dinetteRSMiddle" url='../x3d_Library/Dinette.x3d' render='false'></Inline>
+		<Inline id='dinetteCSRear' nameSpaceName="sleepingOptions__dinetteCSRear" url='../x3d_Library/Dinette.x3d' render='false'></Inline>
+		<Inline id='dinetteRSRear' nameSpaceName="sleepingOptions__dinetteRSRear" url='../x3d_Library/Dinette.x3d' render='false'></Inline>
+
+
+    <Inline id='happijacRear' nameSpaceName="sleepingOptions__happijacRear" url='../x3d_Library/Happijac.x3d' render='false'></Inline>
+    <Inline id='happijacMiddle' nameSpaceName="sleepingOptions__happijacMiddle" url='../x3d_Library/Happijac.x3d' render='false'></Inline>
+
+    <Inline id='sofaCSFront' nameSpaceName="sleepingOptions__sofaCSFront" url='../x3d_Library/SofaSleeper.x3d' render='false'></Inline>
+    <Inline id='sofaCSMiddle' nameSpaceName="sleepingOptions__sofaCSMiddle" url='../x3d_Library/SofaSleeper.x3d' render='false'></Inline>
+		<Inline id='sofaRSMiddle' nameSpaceName="sleepingOptions__sofaRSMiddle" url='../x3d_Library/SofaSleeper.x3d' render='false'></Inline>
+		<Inline id='sofaCSRear' nameSpaceName="sleepingOptions__sofaCSRear" url='../x3d_Library/SofaSleeper.x3d' render='false'></Inline>
+		<Inline id='sofaRSRear' nameSpaceName="sleepingOptions__sofaRSRear" url='../x3d_Library/SofaSleeper.x3d' render='false'></Inline>
+    </Scene>
+</X3D>

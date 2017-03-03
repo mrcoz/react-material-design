@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+        <Inline id='ladder' class="exterior" nameSpaceName="exteriorOptions__ladder" url='../x3d_Library/Ladder.x3d' render='false'></Inline>
+        <Inline id='powerJack' nameSpaceName="exteriorOptions__powerJack" url='../x3d_Library/PowerJack.x3d' render='false'></Inline>
+        <Inline id='rampDoor84' class="exterior" nameSpaceName="exteriorOptions__rampDoor84" url='../x3d_Library/RampDoor84.x3d' render='true'></Inline>
+        <Inline id='rampDoor100' class="exterior" nameSpaceName="exteriorOptions__rampDoor100" url='../x3d_Library/RampDoor100.x3d' render='true'></Inline>
+        <Inline id='roofPlatform' nameSpaceName="exteriorOptions__roofPlatform" url='../x3d_Library/RoofPlatform.x3d' render='false'></Inline>
+        <Inline id='roofRack' nameSpaceName="exteriorOptions__roofRack" url='../x3d_Library/RoofRack.x3d' render='false'></Inline>
+        <Inline id='showerExterior' nameSpaceName="exteriorOptions__showerExterior" url='../x3d_Library/ShowerExterior.x3d' render='false'></Inline>
+        <Inline id='sideWindJack' nameSpaceName="exteriorOptions__sideWindJack" url='../x3d_Library/SideWindJack.x3d' render='true'></Inline>
+        <Inline id='tonguePlate' nameSpaceName="exteriorOptions__tonguePlate" url='../x3d_Library/TonguePlate84.x3d' render='false'></Inline>
+        <Inline id='windowBedroomCS' nameSpaceName="exteriorOptions__windowBedroomCS" url='../x3d_Library/Window36x24.x3d' render='true'></Inline>
+        <Inline id='windowBedroomRS' nameSpaceName="exteriorOptions__windowBedroomRS" url='../x3d_Library/Window36x24.x3d' render='true'></Inline>
+        <Inline id='windowKitchen' nameSpaceName="exteriorOptions__windowKitchen" url='../x3d_Library/Window26x20.x3d' render='true'></Inline>
+        <Inline id='windowFrontCS' nameSpaceName="exteriorOptions__windowFrontCS" url='../x3d_Library/Window36x24.x3d' render='true'></Inline>
+        <Inline id='windowMiddleCS' nameSpaceName="exteriorOptions__windowMiddleCS" url='../x3d_Library/Window36x24.x3d' render='false'></Inline>
+        <Inline id='windowMiddleRS' nameSpaceName="exteriorOptions__windowMiddleRS" url='../x3d_Library/Window36x24.x3d' render='false'></Inline>
+        <Inline id='windowRearCS' nameSpaceName="exteriorOptions__windowRearCS" url='../x3d_Library/Window36x24.x3d' render='true'></Inline>
+        <Inline id='windowRearRS' nameSpaceName="exteriorOptions__windowRearRS" url='../x3d_Library/Window36x24.x3d' render='true'></Inline>
+        <Inline id='windowPlugCSExt' class="exterior" nameSpaceName="exteriorOptions__windowPlugCSExt" url='../x3d_Library/WindowPlugCSExt.x3d' render='true'></Inline>
+        <Inline id='windowPlugRSExt' class="exterior" nameSpaceName="exteriorOptions__windowPlugRSExt" url='../x3d_Library/WindowPlugRSExt.x3d' render='true'></Inline>
+        <Inline id='windowPlugCSInt' nameSpaceName="exteriorOptions__windowPlugCSInt" url='../x3d_Library/WindowPlugCSInt.x3d' render='true'></Inline>
+        <Inline id='windowPlugRSInt' nameSpaceName="exteriorOptions__windowPlugRSInt" url='../x3d_Library/WindowPlugRSInt.x3d' render='true'></Inline>
+        <Inline id='windowPlugCSGraphics' class="exterior" nameSpaceName="exteriorOptions__windowPlugCSGraphics" url='../x3d_Library/WindowPlugCSGraphics.x3d' render='true'></Inline>
+        <Inline id='windowPlugRSGraphics' class="exterior" nameSpaceName="exteriorOptions__windowPlugRSGraphics" url='../x3d_Library/WindowPlugRSGraphics.x3d' render='true'></Inline>
+	</Scene>
+</X3D>

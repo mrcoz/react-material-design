@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+
+	    <Inline id='antenna' nameSpaceName="applianceOptions__antenna" url='../x3d_Library/Antenna.x3d' render='false'></Inline>
+
+ 		  <Inline id='microwave' nameSpaceName="applianceOptions__microwave" url='../x3d_Library/Microwave.x3d' render='false'></Inline>
+      <Inline id='tvBedroom' nameSpaceName="applianceOptions__tvBedroom" url='../x3d_Library/TV.x3d' render='false'></Inline>
+	    <Inline id='tvGarage' nameSpaceName="applianceOptions__tvGarage" url='../x3d_Library/TV.x3d' render='false'></Inline>
+
+      <Inline id='speakerExteriorFront' nameSpaceName="applianceOptions__speakerExteriorFront" url='../x3d_Library/Speaker.x3d' render='false'></Inline>
+      <Inline id='speakerExteriorRear' nameSpaceName="applianceOptions__speakerExteriorRear" url='../x3d_Library/Speaker.x3d' render='false'></Inline>
+      <Inline id='speakerInteriorFront' nameSpaceName="applianceOptions__speakerInteriorFront" url='../x3d_Library/Speaker.x3d' render='false'></Inline>
+      <Inline id='speakerInteriorRear' nameSpaceName="applianceOptions__speakerInteriorRear" url='../x3d_Library/Speaker.x3d' render='false'></Inline>
+
+	</Scene>
+</X3D>

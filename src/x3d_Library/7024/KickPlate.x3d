@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+      <Transform>
+        <Transform  translation="-0.125 0 0">
+            <Shape>
+                <Appearance DEF="ATP">
+                    <TextureTransform scale="9 1" />
+                    <CommonSurfaceShader
+                      class="intATP"
+
+                      diffuseFactor=".6 .65 .7"
+                      specularFactor=".6 .6 .6"
+                      shininessFactor="1"
+                      normalSpace="TANGENT"
+                      textureTransformEnabled="1"
+                      normalBias="1 1 1"
+                    >
+                      <ImageTexture containerField="normalTexture" url="../../../Images/diamondNormal.gif"/>
+                    </CommonSurfaceShader>
+                </Appearance>
+                <IndexedFaceSet coordIndex='4 0 1 -1 4 1 5 -1 5 1 2 -1 5 2 3 -1 ' normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                    <Coordinate point=' 40.87 0 -288 40.87 0 -201.3 40.87 0 -132.3 40.87 0 -131 40.87 6.93 -288 40.87 6.93 -131 '></Coordinate>
+                    <Normal vector=' -1 0 0 '></Normal>
+                </IndexedFaceSet>
+            </Shape>
+        </Transform>
+        <Transform  translation=".125 0 0">
+            <Shape>
+                <Appearance USE="ATP">
+                </Appearance>
+                <IndexedFaceSet coordIndex='3 2 5 -1 5 2 1 -1 5 1 4 -1 4 1 0 -1 ' normalIndex='0 0 0 -1 0 0 0 -1 0 0 0 -1 0 0 0 -1 ' colorPerVertex='false'>
+                    <Coordinate point=' -40.87 0 -288 -40.87 0 -201.3 -40.87 0 -132.3 -40.87 0 -89 -40.87 6.93 -288 -40.87 6.93 -89 '></Coordinate>
+                    <Normal vector=' 1 0 0 '></Normal>
+                </IndexedFaceSet>
+            </Shape>
+        </Transform>
+      </Transform>
+    </Scene>
+</X3D>

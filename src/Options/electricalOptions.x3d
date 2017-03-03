@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+      <Group id='generator' nameSpaceName="electricalOptions__generator" render="false">
+        <Inline id='generator84' nameSpaceName="electricalOptions__generator84" url='../x3d_Library/Generator84.x3d' render='true'></Inline>
+        <Inline id='generator100' nameSpaceName="electricalOptions__generator100" url='../x3d_Library/Generator100.x3d' render='true'></Inline>
+      </Group>
+      <Inline id='fuelStation' class="exterior" nameSpaceName="electricalOptions__fuelStation" url='../x3d_Library/FuelStation.x3d' render='false'></Inline>
+  		<Inline id='lightLoadingCS' nameSpaceName="electricalOptions__lightLoadingCS" url='../x3d_Library/LightLoading.x3d' render='false'></Inline>
+  		<Inline id='lightLoadingRS' nameSpaceName="electricalOptions__lightLoadingRS" url='../x3d_Library/LightLoading.x3d' render='false'></Inline>
+  		<Inline id='lightFloodFront' nameSpaceName="electricalOptions__lightFloodFront" url='../x3d_Library/LightFlood.x3d' render='false'></Inline>
+  		<Inline id='lightFloodRear' nameSpaceName="electricalOptions__lightFloodRear" url='../x3d_Library/LightFlood.x3d' render='false'></Inline>
+  		<Inline id='batteryPrep2' nameSpaceName="electricalOptions__batteryPrep2" url='../x3d_Library/Battery.x3d' render='false'></Inline>
+  		<Inline id='batteryPrep1' nameSpaceName="electricalOptions__batteryPrep1" url='../x3d_Library/Battery.x3d' render='true'></Inline>
+  		<Inline id='solarPanel' class="exterior" nameSpaceName="electricalOptions__solarPanel" url='../x3d_Library/SolarPanel.x3d' render='false'></Inline>
+    </Scene>
+</X3D>

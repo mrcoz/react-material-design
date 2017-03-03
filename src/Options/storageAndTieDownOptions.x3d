@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+
+      <Inline id='cabinetUpperFrontCS8' nameSpaceName="storageAndTieDownOptions__cabinetUpperFrontCS8" url='../x3d_Library/CabinetUpper8.x3d' render='false'></Inline>
+  		<Inline id='cabinetUpperFrontCS4' nameSpaceName="storageAndTieDownOptions__cabinetUpperFrontCS4" url='../x3d_Library/CabinetUpper4.x3d' render='false'></Inline>
+
+      <Inline id='cabinetUpperMiddleCS8' nameSpaceName="storageAndTieDownOptions__cabinetUpperMiddleCS8" url='../x3d_Library/CabinetUpper8.x3d' render='false'></Inline>
+  	  <Inline id='cabinetUpperMiddleCS4' nameSpaceName="storageAndTieDownOptions__cabinetUpperMiddleCS4" url='../x3d_Library/CabinetUpper4.x3d' render='false'></Inline>
+
+      <Inline id='cabinetUpperRearCS8' nameSpaceName="storageAndTieDownOptions__cabinetUpperRearCS8" url='../x3d_Library/CabinetUpper8.x3d' render='false'></Inline>
+  	  <Inline id='cabinetUpperRearCS4' nameSpaceName="storageAndTieDownOptions__cabinetUpperRearCS4" url='../x3d_Library/CabinetUpper4.x3d' render='false'></Inline>
+
+      <Inline id='cabinetUpperMiddleRS8' nameSpaceName="storageAndTieDownOptions__cabinetUpperMiddleRS8" url='../x3d_Library/CabinetUpper8.x3d' render='false'></Inline>
+      <Inline id='cabinetUpperMiddleRS4' nameSpaceName="storageAndTieDownOptions__cabinetUpperMiddleRS4" url='../x3d_Library/CabinetUpper4.x3d' render='false'></Inline>
+
+      <Inline id='cabinetUpperRearRS8' nameSpaceName="storageAndTieDownOptions__cabinetUpperRearRS8" url='../x3d_Library/CabinetUpper8.x3d' render='false'></Inline>
+      <Inline id='cabinetUpperRearRS4' nameSpaceName="storageAndTieDownOptions__cabinetUpperRearRS4" url='../x3d_Library/CabinetUpper4.x3d' render='false'></Inline>
+
+      <Group id="dRings" nameSpaceName="storageAndTieDownOptions__dRings"  render='true'>
+        <Inline id='dRing1' nameSpaceName="storageAndTieDownOptions__dRing1" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing2' nameSpaceName="storageAndTieDownOptions__dRing2" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing3' nameSpaceName="storageAndTieDownOptions__dRing3" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing4' nameSpaceName="storageAndTieDownOptions__dRing4" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing5' nameSpaceName="storageAndTieDownOptions__dRing5" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing6' nameSpaceName="storageAndTieDownOptions__dRing6" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing7' nameSpaceName="storageAndTieDownOptions__dRing7" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing8' nameSpaceName="storageAndTieDownOptions__dRing8" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing9' nameSpaceName="storageAndTieDownOptions__dRing9" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing10' nameSpaceName="storageAndTieDownOptions__dRing10" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+        <Inline id='dRing11' nameSpaceName="storageAndTieDownOptions__dRing11" url='../x3d_Library/DRing.x3d' render='true'></Inline>
+      </Group>
+      <Group id="airlineTrack" nameSpaceName="storageAndTieDownOptions__airlineTrack"  render='false'>
+        <Inline id='airlineTrackCS' nameSpaceName="storageAndTieDownOptions__airlineTrackCS" url='../x3d_Library/AirlineTrackFloor.x3d' render='true'></Inline>
+        <Inline id='airlineTrackMiddle' nameSpaceName="storageAndTieDownOptions__airlineTrackMiddle" url='../x3d_Library/AirlineTrackFloor.x3d' render='true'></Inline>
+        <Inline id='airlineTrackRS' nameSpaceName="storageAndTieDownOptions__airlineTrackRS" url='../x3d_Library/AirlineTrackFloor.x3d' render='true'></Inline>
+      </Group>
+	</Scene>
+</X3D>

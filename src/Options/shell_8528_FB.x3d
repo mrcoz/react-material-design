@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
+    <Scene DEF='scene'>
+
+        <!--  Unchanging Inlines  -->
+        <Inline id='floorBoards' nameSpaceName="shell__floorBoards" url='../x3d_Library/FrontBedroom/FloorBoards.x3d' render='true'></Inline>
+        <Inline id='frameAndTongue' nameSpaceName="shell__frameAndTongue" url='../x3d_Library/FrontBedroom/FrameAndTongue.x3d' render='true'></Inline>
+        <Inline id='kickPlate' nameSpaceName="shell__kickPlate" url='../x3d_Library/FrontBedroom/KickPlate.x3d' render='true'></Inline>
+        <Inline id='roof' class="exterior" namespacename="shell__roof" url='../x3d_Library/FrontBedroom/Roof.x3d' render='true'></Inline>
+        <Inline id='rubRail' nameSpaceName="shell_8528_FB__rubRail" class="exterior" url='../x3d_Library/FrontBedroom/RubRail.x3d' render='true'></Inline>
+        <Inline id='wallsBedAndBath' namespacename="shell__wallsBedAndBath" url='../x3d_Library/FrontBedroom/WallsBedAndBath.x3d' render='true'></Inline>
+        <Inline id='wallFrontExt' class="exterior" namespacename="shell__wallFrontExt" url='../x3d_Library/WallFrontExt100.x3d' render='true'></Inline>
+        <Inline id='wallFrontInt' class="exterior" namespacename="shell__wallFrontInt" url='../x3d_Library/FrontBedroom/WallFrontInt.x3d' render='true'></Inline>
+        <Inline id='wallFront' namespacename="shell__wallFront" url='../x3d_Library/FrontBedroom/WallFront.x3d' render='true'></Inline>
+        <Inline id='frontBedroom' namespacename="shell__frontBedroom" url='../x3d_Library/FrontBedroom/FrontBedroom.x3d' render='true'></Inline>
+        <Inline id='cabinetsBedroom' namespacename="shell__cabinetsBedroom" url='../x3d_Library/CabinetsBedroom.x3d' render='true'></Inline>
+        <Inline id='cabinetDresser' namespacename="shell__cabinetDresser" url='../x3d_Library/CabinetDresser.x3d' render='true'></Inline>
+        <Inline id='cabinetBathUpperFB' namespacename="shell__cabinetBathUpperFB" url='../x3d_Library/CabinetBathUpperFB.x3d' render='true'></Inline>
+        <Inline id='cabinetBathBase' namespacename="shell__cabinetBathBase" url='../x3d_Library/CabinetBathBase.x3d' render='true'></Inline>
+
+        <transform class="stainlessTrim" render="false">
+          <Inline id='sSTrim' class="exterior" namespacename="shell__sSTrim" url='../x3d_Library/FrontBedroom/StainlessSteelTrim.x3d' render='true'></Inline>
+        </transform>
+
+        <!-- CS Interior Side Walls -->
+        <Inline id='wallCSInteriorBedDoor' namespacename="shell__wallCSInteriorBedDoor" url='../x3d_Library/FrontBedroom/WallCSInt.x3d' render='true'></Inline>
+
+        <!-- RS Interior Side Walls -->
+        <Inline id='wallRSInteriorBedDoor' namespacename="shell__wallRSInteriorBedDoor" url='../x3d_Library/FrontBedroom/WallRSInt.x3d' render='true'></Inline>
+
+        <Group id="exteriorWalls">
+
+            <!-- CS Exterior Side Walls -->
+            <Inline id='wallCSExteriorBedDoor' class="exterior" namespacename="shell__wallCSExteriorBedDoor" url='../x3d_Library/FrontBedroom/WallCSExt.x3d' render='true'></Inline>
+
+            <!-- RS Exterior Side Walls -->
+            <Inline id='wallRSExteriorBedDoor' class="exterior" namespacename="shell__wallRSExteriorBedDoor" url='../x3d_Library/FrontBedroom/WallRSExt.x3d' render='true'></Inline>
+
+        </Group>
+
+    </Scene>
+</X3D>
