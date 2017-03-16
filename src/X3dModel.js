@@ -12,7 +12,6 @@ class X3dModel extends Component {
               <shape>
                   <appearance>
                     <material is diffusecolor="1 0 0" ambientintensity="0.4" emissivecolor="0,0,0" shininess="0.8" specularcolor="0,0,0"></material>
-
                   </appearance>
                   <box></box>
               </shape>

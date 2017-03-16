@@ -4,25 +4,31 @@ import './App.css';
 import Nav from './Nav.js';
 import Footer from './Footer.js';
 import Checkbox from './CheckBox.js';
-//import X3dModel from "./X3dModel.js";
+import X3dModel from "./X3dModel.js";
 //import Inline from './inline.js'
-import Simple from './Simple.js'
+//import Simple from './Simple.js'
+// import AnimationCloth from './examples/Cloth.js'
+// <AnimationCloth width={36} height={36} />
+import MaterialIO from "./material_io.js";
+import MyAwesomeReactComponent from "./RaisedButton.js"
+import Paper from "./paper.js"
+import Paper2 from "./paper2.js"
+import RButton from "./RButton.js"
 
 class App extends Component {
-  constructor() {
-  super();
-  };
-  
   render() {
     return (
       <div className="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <Nav />
 
         <div>
-
+        <MaterialIO />
+        <MyAwesomeReactComponent />
+        <Paper />
+        <Paper2 />
+        <RButton />
         <h1>Hello World</h1>
-
-        <Simple/>
+        <X3dModel />
 
         <Checkbox />
 
